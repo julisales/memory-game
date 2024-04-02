@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Super Milk';
+    src: url('../assets/fonts/Super\ Milk.ttf') format('truetype');
+}
+
+:root {
+    --color-primary: #8AE6A9;
+    --color-secondary: #275737;
+    --color-tertiary: #60A878;
+    --color-white: #FFF;
+    --font-primary: 'Super Milk';
+    --font-weight-normal: 400;
+    --font-wheight-fine: 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+}
