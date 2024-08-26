@@ -124,21 +124,3 @@ header {
 .back-to-home:hover {
     opacity: 0.5;
 }
-
-@media (max-width: 768px) {
-    .grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-@media (max-width: 576px) {
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 420px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
